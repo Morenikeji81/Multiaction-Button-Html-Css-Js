@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTI ACTION BUTTON</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">       
+</head>
+<body>
+ <div class ="mab">
+    <button type ="button" class="mab_button mab--button--primary" onclick= "alert('Primary')">
+       <span class="mab--text"><img src ="save button.svg"class="material-icons mab--icon" id="special">
+        Save Changes 
+    </span>
+    </button>
+    <button type ="button" class="mab_button mab--button--menu" onclick= "alert('Secondary')">
+        <img src ="expand more.svg"class="material-icons mab--icon"  >
+    </button>
+    <div class="mab--list">
+        <button type ="button" class="mab_button mab--button--secondary" >
+            <span class="mab--text" >
+            Save Draft
+         </span>
+        </button>
+         <button type ="button" class="mab_button mab--button--secondary" >
+            <span class="mab--text" >
+            Make a Copy
+         </span> 
+         </button>          
+    </div>
+ </div>
+    
+ <script src="script.js"></script>
+</body>
+
+</html>

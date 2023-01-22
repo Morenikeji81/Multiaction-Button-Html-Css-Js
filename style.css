@@ -1,0 +1,44 @@
+.mab{
+    position:relative;
+    display:inline-flex;
+    background-color: #dddddd;
+    
+}
+.mab_button{
+    border: none;
+    background: none;  
+    padding: 8px 12px;
+    color: #333333;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+.mab_button:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.mab--button--secondary{
+    width: 100%;
+}
+.mab--text{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start; 
+   font-family: 'Readex pro', sans-serif;
+   
+   
+}
+#special{
+    margin-right: 5px;
+}
+.mab--list{
+    position: absolute;
+    display:none;
+    top:115%;
+    left: 85px;
+   background: #ffffff;
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.mab--list--visible{
+    display:initial;
+}
+
